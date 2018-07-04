@@ -1,6 +1,6 @@
 module Taggable
   def price_tag
-    "#{price}円"
+    "#{self.price}円"
   end
 end
 
